@@ -1,0 +1,5 @@
+debian-native-package (1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Macrotex <bogus@example.com>  Tue, 12 Mar 2019 12:46:03 -0700

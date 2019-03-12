@@ -1,0 +1,18 @@
+Source: debian-native-package
+Section: misc
+Priority: optional
+Homepage: https://github.com/macrotex/debian-native-package
+Build-Depends: debhelper (>= 9)
+Maintainer: Macrotex <bogus@example.com>
+Standards-Version: 3.9.8
+
+Package: debian-native-package
+Architecture: all
+Depends: ${misc:Depends}
+Description: Simple native Debian package for didactic purposes
+ Debian package in native format to be used for teaching. All the
+ package does is copy the file test.txt in the root directory
+ to the /tmp directory.
+
+
+
